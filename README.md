@@ -68,6 +68,8 @@ Set up an API Gateway to expose an HTTP endpoint for the lambda_function.py.
 Configure the Telegram Bot with the provided TG_BOT_API_KEY.
 Ensure that the Moralis API key (MORALIS_API_KEY) is correctly configured in the Lambda environment.
 
+=================================================================================================
+
 another lambda function to set the webhook and runs for every 5min to make the requests active. 
 
 # Webhook Setup Lambda Function
@@ -117,7 +119,7 @@ Environment Setup:
 Configure the necessary environment variables (TG_BOT_API_KEY and APIGateway_URL) in the AWS Lambda console.
 Deploy Lambda Function:
 
-Deploy the webhook_setup.py Lambda function to your AWS Lambda environment.
+Deploy the lambda_function_tg_webhook.py Lambda function to your AWS Lambda environment.
 Set Up Triggers:
 
 Configure event triggers for the Lambda function, such as AWS CloudWatch Events, to execute the function at scheduled intervals or specific events.
