@@ -5,7 +5,7 @@
 ![TG_bOT_Serverless_Architecture](https://github.com/devopsninja464/TG-BOT/assets/77762256/0932685a-5eed-483a-8c95-f7ccb50e0ba1)
 
 
-Lambda Function - lambda_function.py:
+## Lambda Function - lambda_function.py:
 
 This Lambda function is responsible for handling incoming Telegram commands, specifically the "/start" command.
 It uses the telegram library to interact with the Telegram Bot API for sending messages.
